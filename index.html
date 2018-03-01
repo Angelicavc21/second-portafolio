@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="assets/icons/icomoon/style.css">
-    <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://code.jquery.com/jquery-3.3.0.min.js">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="" cz-shortcut-listen="true">
@@ -19,18 +18,18 @@
                 <div class="row">
                   <div class="col s12">
                     <div class="nav-wrapper">
-                      <a href="#!" class="brand-logo animated fadeInLeft fuente1">Mi portafolio</a>
+                      <!-- <a href="#!" class="brand-logo animated fadeInLeft fuente1">Mi portafolio</a> -->
                       <ul class="right hide-on-med-and-down">
-                        <li><a href="#" id="">Inicio</a></li>
+                        <!-- <li><a href="#" id="">Inicio</a></li> -->
                         <li><a href="#yo" id="">Sobre mi</a></li>
-                        <li><a href="#portafolio" id="">Portafolio</a></li>
-                        <li><a href="#contacto" id="">Contacto</a></li>
+                        <li><a href="#contacto" id="">Portafolio</a></li>
+                        <li><a href="#portafolio" id="">Skils</a></li>
                       </ul>
                       <ul id="nav-mobile" class="side-nav" style="left: 0px;">
-                        <li><a href="#" id="">Inicio</a></li>
+                        <!-- <li><a href="#" id="">Inicio</a></li> -->
                         <li><a href="#yo" id="">Sobre mi</a></li>
-                        <li><a href="#portafolio" id="">Portafolio</a></li>
-                        <li><a href="#contacto" id="">Contacto</a></li>
+                        <li><a href="#contacto" id="">Portafolio</a></li>
+                        <li><a href="#portafolio" id="">Skils</a></li>
                       </ul>
                       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                     </div>
@@ -39,11 +38,11 @@
               </nav>
             </div>
       </header>
-    <section id="">
+    <!-- <section id="">
         <div class="parallax-container">
-            <!-- <div class="parallax"><img id="imag" src="assets/images/inicio.jpeg"></div> -->
+            <div class="parallax"><img id="imag" src="assets/images/inicio.jpeg"></div>
           </div>
-    </section>
+    </section> -->
   <section id="yo">
       <div class="section white">
           <div class="row container top">
@@ -57,24 +56,88 @@
               <div class="col s5">
                 <div class="card animar1">
                   <img src="assets/images/perfil.jpg" class="circle " alt="">
+                  <div class="button circular">
+                    <button class="circular">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </button>
+                    <button class="circular">
+                      <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/angelica-villalobos/"></a></i>
+                    </button>
+                    <button class="circular">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
               <div class="col s6">
                 <div class="card animar2 space letter1">
-                  <p>Mi nombre es Angelica Villalobos, ux desinger de Laboratoria me, me gusta estar en constante aprendimiento,
+                  <p>Mi nombre es Angelica Villalobos, ux desinger de Laboratoria, me gusta estar en constante aprendimiento,
                        disfruto de escuchar y compartir ideas, me considero una persona dinámica, creativa, con iniciativa, 
-                       interactuo con las personas buscando aprender cosas nuevas es por ello que me animé a participar en Laboratoria, 
-                       para obtener lo mejor de mí  y para desarrollar el potencial que hay en mi.</p>
+                       interactuo con las personas buscando aprender cosas nuevas.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
   </section>
-  <div class="parallax-container">
-    <!-- <div class="parallax"><img src="assets/images/inicio3.jpg"></div> -->
+  <div class="fondo-images">
+    <div class="fondo"><img src="assets/images/inicio.jpeg"></div>
   </div>
-  <section id="portafolio">
+  <section id="contacto">
+    <div class="section white">
+        <div class="row container">
+            <br>
+            <br>
+            <br>
+          <div class="center-align">
+            <h2 class="header center-align fuente1">Skils</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="section">
+      
+            <!--   Icon Section   -->
+            <div class="row">
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                  <h5 class="center">Speeds up development</h5>
+      
+                  <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                </div>
+              </div>
+      
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                  <h5 class="center">User Experience Focused</h5>
+      
+                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                </div>
+              </div>
+      
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+                  <h5 class="center">Easy to work with</h5>
+      
+                  <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <br><br>
+        </div>
+        <br>
+        <br>
+        <br>
+        </div>
+      </div>
+</section>
+  <!-- <section id="portafolio">
       <div class="section white">
           <div class="row container">
               <br>
@@ -114,7 +177,7 @@
               </div>
               <div class="card project">
                   <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/im">
+                      <img class="activator" src="assets/images/inicio2.jpg">
                     </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
@@ -130,11 +193,68 @@
               <br>
         </div>
     </div>
-  </section>
-  <div class="parallax-container">
-    <!-- <div class="parallax"><img src="assets/images/img1.png"></div> -->
+  </section> -->
+    <div class="fondo-images">
+    <div class="fondo"><img src="assets/images/inicio2.jpg"></div>
   </div>
-  <section id="contacto">
+  <section id="portafolio">
+    <div class="section white">
+        <div class="row container">
+            <br>
+            <br>
+            <br>
+          <div class="center-align">
+              <h2 class="header fuente1">PORTAFOLIO</h2>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="card project">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/lyft.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Lyft</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Lyft<i class="material-icons right">close</i></span>
+                <p></p>
+              </div>
+            </div>
+            <div class="card project">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/trello.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">trello</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Trello<i class="material-icons right">close</i></span>
+                  <p></p>
+                </div>
+            </div>
+            <div class="card project">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/images/inicio2.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">Ux-Research</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Ux-Research<i class="material-icons right">close</i></span>
+                    <p><a href="https://github.com/alexandracch/UX-research"></a></p>
+                  </div>
+            </div>
+            <br>
+            <br>
+            <br>
+      </div>
+  </div>
+</section>
+  <!-- <section id="contacto">
       <div class="section white">
           <div class="row container">
               <br>
@@ -173,7 +293,7 @@
           <br>
           </div>
         </div>
-  </section>
+  </section> -->
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container center-align">

@@ -1,3 +1,19 @@
+@font-face {
+  font-family: fuente1;
+  src: url(../assets/fuentes/Yeysk.otf);
+}
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+/* nav {
+background-color: #pink;
+} */
+img {
+  border: 0;
+  width: 100%;
+}
 .slider .slides li .text {
   color: #fff;
   position: absolute;
@@ -42,11 +58,24 @@ width: 25%;
 display: inline-block;
 margin: auto 2.3em;
 }
-.parallax-container {
+
+.button.circular {
+  border-radius: 20%;
+  margin-left: 100px;
+}
+button, select {
+  text-transform: none;
+  border-radius: 20px;
+  border-color: gray;
+}
+.parallax{
+  background-image: url("assets/images/git.png");
+}
+.fondo-container {
 height: 600px;
 }
 .letter1 {
-font-size: 1.3em;
+font-size: 2em;
 }
 .letter {
 font-size: 1.5em;
@@ -62,6 +91,7 @@ width: 300px!important;
 .animar2 {
 right: 0!important;
 }
+
 
 /**************************************************/
 .page-footer {
